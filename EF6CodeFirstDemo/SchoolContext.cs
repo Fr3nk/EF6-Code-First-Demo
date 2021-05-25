@@ -25,5 +25,7 @@ namespace EF6CodeFirstDemo
         public DbSet<Grade> Grades { get; set; }
         public DbSet<Course> Courses { get; set; }
         public DbSet<StudentAddress> StudentAddresses { get; set; }
+
+        public DbSet<Teacher> TeacherInfo { get; set; }
     }
 }
